@@ -12,6 +12,7 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
 
         @livewireStyles
 
@@ -42,5 +43,7 @@
         @stack('modals')
 
         @livewireScripts
+        <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/js/popper.min.js"></script>
     </body>
 </html>
